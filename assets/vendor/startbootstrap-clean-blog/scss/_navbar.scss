@@ -13,7 +13,7 @@
     font-weight: 800;
     padding: 13px;
     text-transform: uppercase;
-    color: green;//color: $gray-800;
+    color: #39FF14;//color: $gray-800;
 //    background-color: green;
   }
   .navbar-nav {
@@ -70,8 +70,8 @@
       -webkit-transition: -webkit-transform 0.2s;
       -moz-transition: -moz-transform 0.2s;
       transition: transform 0.2s;
-      border-bottom: 1px solid darken($green, .05);
-      background-color: fade-out($green, 0);
+      border-bottom: 1px solid darken(#39FF14, .05);
+      background-color: fade-out(#39FF14, 0);
       .navbar-brand {
         color: $gray-900;
         &:focus,
