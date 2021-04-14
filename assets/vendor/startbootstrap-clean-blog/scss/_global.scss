@@ -2,7 +2,7 @@
 body {
   font-size: 20px;
   background: $black;
-//  color: $white;
+  color: $white;
   @include serif-font;
 }
 
@@ -35,7 +35,7 @@ a {
 
 blockquote {
   font-style: italic;
-  color: $gray-600;
+  color: $gray-300;
 }
 
 .section-heading {
