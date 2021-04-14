@@ -35,7 +35,7 @@
       color: $white;//color: $white;
       &:focus,
       &:hover {
-        color: fade-out($green, 0);
+        color: fade-out($blue, 0);
       }
     }
     .navbar-nav {
@@ -46,7 +46,7 @@
           color: $white;
           &:focus,
           &:hover {
-            color: fade-out($green, 0);
+            color: fade-out($blue, 0);
           }
         }
       }
