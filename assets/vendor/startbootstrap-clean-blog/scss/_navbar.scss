@@ -35,7 +35,7 @@
       color: $white;//color: $white;
       &:focus,
       &:hover {
-        color: fade-out($green, 1);
+        color: fade-out($green, 0);
       }
     }
     .navbar-nav {
@@ -46,7 +46,7 @@
           color: $white;
           &:focus,
           &:hover {
-            color: fade-out($green, 1);
+            color: fade-out($green, 0);
           }
         }
       }
@@ -71,7 +71,7 @@
       -moz-transition: -moz-transform 0.2s;
       transition: transform 0.2s;
       border-bottom: 1px solid darken($green, .05);
-      background-color: fade-out($green, 1);
+      background-color: fade-out($green, 0);
       .navbar-brand {
         color: $gray-900;
         &:focus,
