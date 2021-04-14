@@ -6,7 +6,7 @@
   @include sans-serif-font;
   .navbar-brand {
     font-weight: 800;
-    color: $gray-800;//$gray-800;
+    color: $gray-800;//$gray-800; 
   }
   .navbar-toggler {
     font-size: 12px;
@@ -35,7 +35,7 @@
       color: $white;//color: $white;
       &:focus,
       &:hover {
-        color: fade-out(#ADD8E6, 0);
+        color: fade-out($teal, 0);
       }
     }
     .navbar-nav {
@@ -46,7 +46,7 @@
           color: $white;
           &:focus,
           &:hover {
-            color: fade-out(#ADD8E6, 0);
+            color: fade-out($teal, 0);
           }
         }
       }
@@ -76,7 +76,7 @@
         color: $gray-900;
         &:focus,
         &:hover {
-          color: #ADD8E6;
+          color: $teal;
         }
       }
       .navbar-nav {
@@ -86,7 +86,7 @@
             color: $gray-900;
             &:focus,
             &:hover {
-              color: #ADD8E6;
+              color: $teal;
             }
           }
         }
