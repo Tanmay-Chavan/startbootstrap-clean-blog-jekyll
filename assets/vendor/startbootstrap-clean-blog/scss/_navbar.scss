@@ -2,7 +2,7 @@
 #mainNav {
   position: absolute;
   border-bottom: 1px solid $gray-200;
-  background-color: green; //white
+  background-color: $white; //white
   @include sans-serif-font;
   .navbar-brand {
     font-weight: 800;
@@ -32,7 +32,7 @@
     .navbar-brand {
       padding: 10px 20px;
       background-color: green;
-      color: green;//color: $white;
+      color: $white;//color: $white;
       &:focus,
       &:hover {
         color: fade-out($green, .2);
@@ -70,7 +70,7 @@
       -webkit-transition: -webkit-transform 0.2s;
       -moz-transition: -moz-transform 0.2s;
       transition: transform 0.2s;
-      border-bottom: 1px solid darken($white, .05);
+      border-bottom: 1px solid darken($green, .05);
       background-color: fade-out($green, .1);
       .navbar-brand {
         color: $gray-900;
