@@ -35,7 +35,7 @@
       color: $white;//color: $white;
       &:focus,
       &:hover {
-        color: fade-out(#DBA40E , 0); // $teal
+        color: fade-out(#FFFF8A , 0); // $teal   #DBA40E
       }
     }
     .navbar-nav {
@@ -46,7 +46,7 @@
           color: $white;
           &:focus,
           &:hover {
-            color: fade-out(#DBA40E, 0);
+            color: fade-out(#FFFF8A, 0);
           }
         }
       }
@@ -76,7 +76,7 @@
         color: $gray-900;
         &:focus,
         &:hover {
-          color:#DBA40E;
+          color:#FFFF8A;
         }
       }
       .navbar-nav {
@@ -86,7 +86,7 @@
             color: $gray-900;
             &:focus,
             &:hover {
-              color:#DBA40E;
+              color:#FFFF8A;
             }
           }
         }
